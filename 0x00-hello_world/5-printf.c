@@ -1,12 +1,15 @@
-/**
- * main - entry point
- * @void: no arguments
- * Description: Programming is like building a multilingual puzzle.
- * Return: value 0 to exit
- */
 #include <stdio.h>
-int main()
+
+/**
+ * main - Entry point
+ *
+ * Description: prints "with proper grammar, but the outcome is a piece of
+ * art,"
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-    printf("with proper grammar, but the outcome is a piece of art, \n"); 
-    return 0;
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
